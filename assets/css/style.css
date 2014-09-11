@@ -73,14 +73,14 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     position: absolute;
     top: 48%;
     left: 50%;
-    width: 180px;
-    height: 42px;
-    margin-left: -90px;
-    margin-top: -20px;
+    width: 130px;
+    height: 30px;
+    margin-left: -70px;
+    margin-top: -10px;
     background-color: #1596DA;
     background-image: url('../image/goto_tit.png');
     background-repeat: no-repeat;
-    background-position: 20px 10px;
+    background-position: 14px 8px;
     cursor: pointer;
     display: none;
 }
@@ -106,9 +106,12 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 #main .carbox.active .mask {
     display: none;
 }
-#main .car1{
+#main .car1 .gotoBtn{
+    background-color: #A40605;
 }
-#main .car2{
+#main .car2 .gotoBtn{
+    background-color: #1596DA;
 }
-#main .car3{
+#main .car3 .gotoBtn{
+    background-color: #3D5C79;
 }
