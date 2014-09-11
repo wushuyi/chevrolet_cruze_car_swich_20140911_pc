@@ -10,10 +10,8 @@
         $cache.carImg = $('.carImg', $cache.carbox);
         $cache.carbox.on('mouseover', function(e){
             var $self = $(this);
+            $cache.carbox.removeClass('active');
             $self.addClass('active');
-        }).on('mouseleave', function(e){
-            var $self = $(this);
-            $self.removeClass('active');
         });
         resize();
 	});
