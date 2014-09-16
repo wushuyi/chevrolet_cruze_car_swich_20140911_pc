@@ -18,7 +18,7 @@
 	});
 
     $(window).load(function(){
-        $('#loading').remove();
+        $('#loading').hide(300);
     });
 
 	$(window).resize(function() {
