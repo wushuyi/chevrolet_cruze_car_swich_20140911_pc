@@ -1,4 +1,5 @@
 ;(function($){
+	window.totalE = window.totalE || {};
     var $cache = {};
     $cache.window = $(window);
 	$(document).ready(function (){
@@ -15,6 +16,10 @@
         });
         resize();
 	});
+
+    $(window).load(function(){
+        $('#loading').remove();
+    });
 
 	$(window).resize(function() {
         resize();
